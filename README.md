@@ -16,3 +16,7 @@ works good when tested in the repository.
 
 [pyannote/speaker-diarization](https://huggingface.co/pyannote/speaker-diarization) is easy to use with above package, 
 but the segmentation is quite poor. 
+
+In FaceReader documentation, they classify talking using the following heuristic — _Talking is classified by looking at the rate of Action Unit 25
+(parting lips) over a typical frequency (e.g. two words per second)._ Some experiments have been performed on this in script:
+`openface_analysis.py`
